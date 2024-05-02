@@ -1,0 +1,79 @@
+html {
+    background-color: darkgreen;
+}
+
+.container {
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+}
+
+input[type="text"], select, button {
+    margin: 5px;
+    padding: 8px;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input[type="text"], select {
+    width: 200px;
+}
+
+button {
+    background-color: yellow;
+    color: black;
+}
+
+button:hover {
+    background-color: orange;
+}
+
+#playerList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.player-card {
+    border: 1px solid white;
+    padding: 10px;
+    margin: 10px 0;
+    width: calc(30% - 20px);
+    box-sizing: border-box;
+}
+
+.player-card img {
+    width: 100%;
+    height: auto;
+}
+
+.player-details {
+    display: none;
+    padding-top: 10px;
+}
+
+.player-details p {
+    margin: 5px 0;
+}
+
+.show-details-button, .hide-details-button, .remove-player-button {
+    background-color: lightblue;
+    color: black;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.show-details-button:hover, .hide-details-button:hover, .remove-player-button:hover {
+    background-color:orange ;
+}

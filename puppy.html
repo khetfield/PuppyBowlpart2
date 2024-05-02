@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puppy Bowl</title>
+    <link rel="stylesheet" href="puppy.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Add Puppy Player</h1>
+        <input type="text" id="name" placeholder="Name">
+        <input type="text" id="breed" placeholder="Breed">
+        <input type="text" id="imageUrl" placeholder="Image URL">
+        <select id="team">
+            <option>Select Team</option>
+            <option>Team East</option>
+            <option>Team West</option>
+        </select>
+        <button onclick="addPlayer()">Add Player</button>
+        <div id="playerList"></div>
+    </div>
+    <script src="puppy.js"></script>
+</body>
+</html>
